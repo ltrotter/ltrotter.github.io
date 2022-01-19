@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Luca Trotter"
-  avatar           : "profile.jpg"
+  avatar           : "Profile.jpg"
   bio              : "Ph.D. candidate"
   location         : "Melbourne, Australia"
   employer_website : "https://infrastructure.eng.unimelb.edu.au/hydrological-processes"

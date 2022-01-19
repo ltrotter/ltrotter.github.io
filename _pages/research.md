@@ -3,38 +3,19 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
-header:
-  og_image: "research/ecdf.png"
 ---
 
-My research falls into two main areas: understanding the influence of geography
-on actor behavior before, during, and after civil conflict, and developing new
-tools to improve the study of institutions (both formal and informal) in peace
-and conflict. One strand of research in this first area explores how the
-territories that ethnic groups inhabit shape rebel group formation and condition
-their relationship with the state. My interest in geography also informs
-projects on active conflicts including the targeting of UN peacekeepers by
-insurgent groups, civilian victimization after rebel territorial conquest, and
-communal violence in fragile settings.
+The research for my Ph.D. deals with understanding the effects of long, persistent drought on hydrological systems and on the reliability of conceptual hydrological models.
+Specifically, I am focussing on the Millennium drought, which affected an area in excess of 1 million km<sup>2</sup> in south-eastern Australia between ca. 1997 and 2009.
+I approach research projects in a multidisciplinary and data-driven way, with the support of digital tools for data analysis, modelling and visualization.
+For most of my research, I am using hydrometeorological data from 155 catchments affected by the Millennium drought in the Australian state of Victoria.
 
-My other main research agenda uses advanced methods to develop new measures of
-institutions. One project uses Bayesian item response theory to measure the
-strength of peace agreements as a latent variable and free researchers from
-post-treatment bias caused by using the duration of agreements as a proxy for
-their strength. In others, I apply unsupervised learning techniques to over a
-billion observations of product-level international trade data to measure
-economic interdependence and illicit economic exchange.
+Currently my Ph.D. project is developing in two main directions:
+The first deals with hydrological modelling and focuses on understanding how the Millennium drought affected the reliability of streamflow projections in Victoria, this included a small study on the effects of the choice of calibration sequence on model performance during drought. The second stream deals with understanding hydrological processes during drought and for this I am currently focussing on storage dynamics; the aim is to assess how storage capacity changed during the drought and whether this affected the behaviour of hydrological catchments during this period.
 
-In a new avenue of research, I leverage social media data to explore
-participation in extremist movements across multiple contexts, gaining insight
-into the early stages of radicalization.
+Eventually, I am planning to bring these two pieces together in the final part of my Ph.D. project, where I will try to improve the reliability of hydrological models during long, dry periods such as the Millennium drought.
 
-<nbsp>
 
 {% include base_path %}
-
 {% assign ordered_pages = site.research | sort:"order_number" %}
-
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+{% for post in ordered_pages %} {% include archive-single.html type="grid" %} {% endfor %}

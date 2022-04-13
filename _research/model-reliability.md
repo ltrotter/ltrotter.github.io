@@ -18,7 +18,7 @@ While working on the study described above, I also began questioning common prac
 
 Details of the two papers described in this page are below.
 
-### WRR Article under review
+## WRR Article under review
 
 **Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (submitted Dec 2021). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' Under review in *Water Resources Research*. Pre-print doi:10.1002/essoar.10509844.3
 
@@ -32,7 +32,7 @@ This indicates that the overestimation is not linked to specific flow regimes, b
 Additionally, we show that in most cases model performance does not recover after the end of the drought and that the multi-annual nature of the drought is the likely reason for exacerbated performance decline due to accumulation and aggravation of errors over subsequent dry years.
 By promoting detailed investigation of models’ shortcomings, we hope to foster the development of more resilient model structures to improve applicability within climate change scenarios.
 
-### MODSIM2021 conference paper
+## MODSIM2021 conference paper
 
 **Trotter, L**, Saft, M, Peel, MC & Fowler, KJA 2021, '"Naïve" inclusion of diverse climates in calibration is not sufficient to improve model reliability under future climate uncertainty.', in *MODSIM2021, 24th International Congress on Modelling and Simulation*. Modelling and Simulation Society of Australia and New Zealand, pp. 588–594, doi:10.36334/modsim.2021.j8.trotter
 

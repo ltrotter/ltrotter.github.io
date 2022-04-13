@@ -12,70 +12,36 @@ For this piece of research, we calibrated and forced five conceptual hydrologic 
 
 Our results show extensive performance degradation at the onset of the drought across all the metrics and models tested. However, metrics associated with flow volumes were the ones that degraded the most, whereas metrics describing the shape of the hydrograph and the flow-duration curve were more resilient to the drier climate. Previous research in this same set of catchments had shown that many of them had significant shifts in their hydrological behaviour during the Millennium Drought, which is likely responsible for the degradation of model performance during this period. Since our results show that degradation during the Drought due to overestimation of volumes occurred for both higher and lower flows and affected both faster and slower flow routes, it is likely that the change in behaviour observed is caused by a concert of hydrological processes affecting simultaneously many different aspects of the flow regime.
 
- Results for this part of my research were submitted for publication in *Water Resources Research* in December 2021 and are currently under review.
+Results for this part of my research were submitted for publication in *Water Resources Research* in December 2021 and are currently under review.
 
- While working on the study described above, I also began questioning common practices for calibrating hydrologic models in the face of future climate uncertainty. It is often assumed that extending calibration sequences to contain a variety of climate conditions is sufficient to guarantee model reliability within such conditions under future climate. In a short paper that I presented at the MODSIM2021 conference, we challenged these assumption. By using the same data and models used for the study described above, I compared the performance during and after the Millennium Drought of models that had been calibrated on different periods. I found no significant improvement in performance even when the period of the Drought was itself included in the calibration sequence.
+While working on the study described above, I also began questioning common practices for calibrating hydrologic models in the face of future climate uncertainty. It is often assumed that extending calibration sequences to contain a variety of climate conditions is sufficient to guarantee model reliability within such conditions under future climate. In a short paper that I presented at the MODSIM2021 conference, we challenged these assumption. By using the same data and models used for the study described above, I compared the performance during and after the Millennium Drought of models that had been calibrated on different periods. I found no significant improvement in performance even when the period of the Drought was itself included in the calibration sequence.
 
- Details of the two papers described in this page are below.
+Details of the two papers described in this page are below.
 
- ## WRR Article under review
- **Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (submitted Dec 2021). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' Under review in *Water Resources Research*. Pre-print doi:10.1002/essoar.10509844.3
- **Abstract:**
- >Hydrologic models are essential tools to understand and plan for the effect of changing climates; however, they are known to underperform in transitory climate conditions.
- Research to date identifies the inadequacy of models to perform during prolonged drought, but falls short on pinpointing how and which specific aspects of model performance are affected.
- Here, we study five conceptual rainfall-runoff models and their performance in \num{155} Australian catchments which recently experienced a 13-year long dry period, with a focus on a wide range of performance metrics.
- We show that model performance degrades extensively during the drought across most metrics, with overestimation of flow volumes driving the decline and representation of shape and variability of the hydrograph and the flow-duration curve being more resilient to the prolonged dry climate.
- This indicates that the overestimation is not linked to specific flow regimes, but is the result of proportional flow decline throughout the hydrograph, suggesting engagement of multiple catchment processes in determining the changes in flow during the drought across high and low flow periods as well as through faster and slower flow routes.
- Additionally, we show that in most cases model performance does not recover after the end of the drought and that the multi-annual nature of the drought is the likely reason for exacerbated performance decline due to accumulation and aggravation of errors over subsequent dry years.
- By promoting detailed investigation of models’ shortcomings, we hope to foster the development of more resilient model structures to improve applicability within climate change scenarios.
+### WRR Article under review
 
- [Preprint](https://doi.org/10.1002/essoar.10509844.3){: .btn--research}
+**Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (submitted Dec 2021). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' Under review in *Water Resources Research*. Pre-print doi:10.1002/essoar.10509844.3
 
- ## MODSIM2021 conference paper
- **Trotter, L**, Saft, M, Peel, MC & Fowler, KJA 2021, '"Naïve" inclusion of diverse climates in calibration is not sufficient to improve model reliability under future climate uncertainty.', in *MODSIM2021, 24th International Congress on Modelling and Simulation*. Modelling and Simulation Society of Australia and New Zealand, pp. 588–594, doi:10.36334/modsim.2021.j8.trotter
- **Extended Abstract:**
- >Parameter sets of hydrologic models do not transfer well between periods with different climatic
-conditions. Existing literature shows that model performance is particularly affected when parameters
-calibrated on wetter conditions are used to project streamflow during drier conditions. In the Australian context,
-where future projections indicate the climate is likely to become warmer and drier as a result of global climate
-changes, these limitations of hydrologic models become particularly disquieting, especially with regards to
-their implications for estimating water availability during dry periods. The Millennium drought, which
-impacted large parts of south-eastern Australia ca. 1997-2009, exposed these limitations of hydrologic models
-and their most common calibration methods. During the drought, many catchments in south-eastern Australia
-underwent changes in their hydrologic behaviour. Extensive research since the end of the drought shows that
-models calibrated on pre-drought conditions routinely overestimate streamflow when forced with climate data
-from the years of the drought.
-In operational simulation, it is often assumed that once a model is shown a variety of climate conditions in the
-calibration sequence, it will perform better under future climate variability. In the context of the Millennium
-drought, it has been theorised that now that we have experienced these conditions, models calibrated on long
-timeseries that include the Millennium drought will be able to perform well under a future drier climate. In this
-study, we put this idea to the test. Specifically, we use five commonly used conceptual hydrologic models and
-evaluate their performance during and after the Millennium drought in 155 Victorian catchments. We test
-whether their performance (in terms of KGE and bias) improves significantly after inclusion in the calibration
-period of the drought and the post-drought periods themselves. For calibration we use an objective function
-specifically designed to optimise models’ ability to reproduce both high and low flow conditions while
-minimising volumetric bias.
-Our results show that the “naïve” approach of extending calibration sequences to include as much climate
-diversity as possible is not sufficient to significantly improve model reliability in the face of future climate
-uncertainty. We demonstrate that showing models data from the Millennium drought in calibration did not
-significantly improve their performance across this set of catchments, neither during the drought itself nor, in
-most cases, in the period after the drought. Further including the post-drought sequence in calibration does
-significantly improve post-MD KGE in three out of five models, but even in these models, performance is still
-significantly lower than it is when calibrating on post-drought only and the improvement, albeit statistically
-significant, is unlikely to make operational difference in most cases. Additionally, bias doesn’t significantly
-change. This is despite drought and post-drought making up a significant proportion of the calibration sequence
-(at least 30%). Mann-Whitney tests were used to assess whether model performance was significantly different
-across the set of catchments. Our results also show that, while rarely significant, the extension of the calibration
-period does provide a marginal improvement in performance for almost all models and both periods tested.
-This is encouraging and supports the practice to expose models to a variety of climate conditions, however it
-indicates that additional provisions are needed when training models for use in ungauged climates.
-Evidence from literature suggests that more sophisticated calibration methods with explicit and distinct
-treatment of different climate regimes improve model performance under a transient climate. However,
-especially in the catchments where drastic shifts were observed, new model structures that are more flexible to
-such climate-induced changes in hydrologic regime are likely necessary to confidently project streamflow
-under future climate scenarios. By exposing these limitations, we encourage members of the hydrologic
-community to exercise caution when applying our existing models and calibration frameworks to project
-streamflow into unknown and uncertain climate conditions. We also join the numerous community calls for
-new and more robust approaches for hydrologic modelling and simulation in the face of a changing climate.
+[Preprint](https://doi.org/10.1002/essoar.10509844.3){: .btn--research}
+
+> **Abstract:** Hydrologic models are essential tools to understand and plan for the effect of changing climates; however, they are known to underperform in transitory climate conditions.
+Research to date identifies the inadequacy of models to perform during prolonged drought, but falls short on pinpointing how and which specific aspects of model performance are affected.
+Here, we study five conceptual rainfall-runoff models and their performance in 155 Australian catchments which recently experienced a 13-year long dry period, with a focus on a wide range of performance metrics.
+We show that model performance degrades extensively during the drought across most metrics, with overestimation of flow volumes driving the decline and representation of shape and variability of the hydrograph and the flow-duration curve being more resilient to the prolonged dry climate.
+This indicates that the overestimation is not linked to specific flow regimes, but is the result of proportional flow decline throughout the hydrograph, suggesting engagement of multiple catchment processes in determining the changes in flow during the drought across high and low flow periods as well as through faster and slower flow routes.
+Additionally, we show that in most cases model performance does not recover after the end of the drought and that the multi-annual nature of the drought is the likely reason for exacerbated performance decline due to accumulation and aggravation of errors over subsequent dry years.
+By promoting detailed investigation of models’ shortcomings, we hope to foster the development of more resilient model structures to improve applicability within climate change scenarios.
+
+### MODSIM2021 conference paper
+
+**Trotter, L**, Saft, M, Peel, MC & Fowler, KJA 2021, '"Naïve" inclusion of diverse climates in calibration is not sufficient to improve model reliability under future climate uncertainty.', in *MODSIM2021, 24th International Congress on Modelling and Simulation*. Modelling and Simulation Society of Australia and New Zealand, pp. 588–594, doi:10.36334/modsim.2021.j8.trotter
 
 [Article](https://doi.org/10.36334/modsim.2021.j8.trotter){: .btn--research}
+
+>**Extended Abstract:** Parameter sets of hydrologic models do not transfer well between periods with different climatic conditions. Existing literature shows that model performance is particularly affected when parameters calibrated on wetter conditions are used to project streamflow during drier conditions. In the Australian context, where future projections indicate the climate is likely to become warmer and drier as a result of global climate changes, these limitations of hydrologic models become particularly disquieting, especially with regards to their implications for estimating water availability during dry periods. The Millennium drought, which impacted large parts of south-eastern Australia ca. 1997-2009, exposed these limitations of hydrologic models and their most common calibration methods. During the drought, many catchments in south-eastern Australia underwent changes in their hydrologic behaviour. Extensive research since the end of the drought shows that models calibrated on pre-drought conditions routinely overestimate streamflow when forced with climate data from the years of the drought.
+>
+>In operational simulation, it is often assumed that once a model is shown a variety of climate conditions in the calibration sequence, it will perform better under future climate variability. In the context of the Millennium drought, it has been theorised that now that we have experienced these conditions, models calibrated on long timeseries that include the Millennium drought will be able to perform well under a future drier climate. In this study, we put this idea to the test. Specifically, we use five commonly used conceptual hydrologic models and evaluate their performance during and after the Millennium drought in 155 Victorian catchments. We test whether their performance (in terms of KGE and bias) improves significantly after inclusion in the calibration period of the drought and the post-drought periods themselves. For calibration we use an objective function specifically designed to optimise models’ ability to reproduce both high and low flow conditions while minimising volumetric bias.
+>
+>Our results show that the “naïve” approach of extending calibration sequences to include as much climate diversity as possible is not sufficient to significantly improve model reliability in the face of future climate uncertainty. We demonstrate that showing models data from the Millennium drought in calibration did not significantly improve their performance across this set of catchments, neither during the drought itself nor, in most cases, in the period after the drought. Further including the post-drought sequence in calibration does significantly improve post-MD KGE in three out of five models, but even in these models, performance is still significantly lower than it is when calibrating on post-drought only and the improvement, albeit statistically significant, is unlikely to make operational difference in most cases. Additionally, bias doesn’t significantly change. This is despite drought and post-drought making up a significant proportion of the calibration sequence (at least 30%). Mann-Whitney tests were used to assess whether model performance was significantly different across the set of catchments. Our results also show that, while rarely significant, the extension of the calibration period does provide a marginal improvement in performance for almost all models and both periods tested. This is encouraging and supports the practice to expose models to a variety of climate conditions, however it indicates that additional provisions are needed when training models for use in ungauged climates.
+>
+>Evidence from literature suggests that more sophisticated calibration methods with explicit and distinct treatment of different climate regimes improve model performance under a transient climate. However, especially in the catchments where drastic shifts were observed, new model structures that are more flexible to such climate-induced changes in hydrologic regime are likely necessary to confidently project streamflow under future climate scenarios. By exposing these limitations, we encourage members of the hydrologic community to exercise caution when applying our existing models and calibration frameworks to project streamflow into unknown and uncertain climate conditions. We also join the numerous community calls for new and more robust approaches for hydrologic modelling and simulation in the face of a changing climate.

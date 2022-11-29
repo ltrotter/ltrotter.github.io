@@ -26,7 +26,7 @@ Check out the articles describing MARRMOT on Geoscientific Model Development to 
 Then
 - Open Matlab;
 - Add the `MARRMoT` folder  and its subfolders `Functions`, `Models` and `User Manual` to the Matlab path;
-- Check out the sample workflows in the `User Manual` folder or read the (User Manual)[https://github.com/wknoben/MARRMoT/blob/master/MARRMoT/User%20manual/v2.-%20User%20manual.pdf] to get started
+- Check out the sample workflows in the `User Manual` folder or read the [User Manual](https://github.com/wknoben/MARRMoT/blob/master/MARRMoT/User%20manual/v2.-%20User%20manual.pdf) to get started
 
 ## Other resources
 I have also developed a MARRMoT friendly implementation of the Dynamic Identifiability Analysis algorithm (or DYNIA from [Wagener et al., 2003]( https://doi.org/10.1002/hyp.1135)). It is available from my [GitHub page](https://github.com/ltrotter/DYNIA_MARRMoT).

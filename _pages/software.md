@@ -2,10 +2,6 @@
 permalink: /software/
 title: "Software"
 gallery:
-  - url: software/MARRMoT_logo.jpg
-    image_path: software/MARRMoT_logo.jpg
-    alt: "MARRMoT logo"
-    title: "MARRMoT logo"
   - url: software/MARRMoT_sample.png
     image_path: software/MARRMoT_sample.png
     alt: "Example MARRMoT results, comparison of three models"

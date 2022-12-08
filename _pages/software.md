@@ -9,8 +9,10 @@ gallery:
 ---
 
 ## MARRMoT
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6484372.svg)](https://doi.org/10.5281/zenodo.6484372)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2482541.svg)](https://doi.org/10.5281/zenodo.2482541)
 [![GitHub release](https://img.shields.io/github/v/release/wknoben/MARRMoT?include_prereleases)](https://github.com/wknoben/MARRMoT/)
+
+https://doi.org/10.5281/zenodo.2482541
 
 {% include gallery %}
 

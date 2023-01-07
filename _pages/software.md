@@ -12,8 +12,6 @@ gallery:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2482541.svg)](https://doi.org/10.5281/zenodo.2482541)
 [![GitHub release](https://img.shields.io/github/v/release/wknoben/MARRMoT?include_prereleases)](https://github.com/wknoben/MARRMoT/)
 
-https://doi.org/10.5281/zenodo.2482541
-
 {% include gallery %}
 
 I contributed to developing the Modular Assessment of Rainfall-Runoff Models Toolbox (MARRMoT) v2.x. MARRMoT is a flexible modelling framework written in MATLAB reproducing the behaviour of 47 established hydrological models. It can be used to calibrate and run models in a user-friendly and consistent way and is designed to facilitate the sharing of model code for reproducibility and to support intercomparison between hydrological models. Additionally, it allows users to create or modify models using components of existing ones.

@@ -23,7 +23,7 @@ Details of the two papers described in this page are below.
 **Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (2023). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' Accepted for publication in *Water Resources Research*. doi:10.1029/2021WR031845
 
 [Article](https://doi.org/10.1029/2021WR031845){: .btn--research}
-[Raw Data](https://doi.org/10.5281/zenodo.7505140) {: .btn--research}
+[Raw Data](https://doi.org/10.5281/zenodo.7505140){: .btn--research}
 
 > **Abstract:** Hydrologic models are essential tools to understand and plan for the effect of changing climates; however, they are known to underperform in transitory climate conditions.
 Research to date identifies the inadequacy of models to perform during prolonged drought, but falls short on pinpointing how and which specific aspects of model performance are affected.

@@ -12,15 +12,15 @@ For this piece of research, we calibrated and forced five conceptual hydrologic 
 
 Our results show extensive performance degradation at the onset of the drought across all the metrics and models tested. However, metrics associated with flow volumes were the ones that degraded the most, whereas metrics describing the shape of the hydrograph and the flow-duration curve were more resilient to the drier climate. Previous research in this same set of catchments had shown that many of them had significant shifts in their hydrological behaviour during the Millennium Drought, which is likely responsible for the degradation of model performance during this period. Since our results show that degradation during the Drought due to overestimation of volumes occurred for both higher and lower flows and affected both faster and slower flow routes, it is likely that the change in behaviour observed is caused by a concert of hydrological processes affecting simultaneously many different aspects of the flow regime.
 
-Results for this part of my research were accepted for publication in *Water Resources Research* in December 2022.
+Results for this part of my research were published in *Water Resources Research*.
 
 While working on the study described above, I also began questioning common practices for calibrating hydrologic models in the face of future climate uncertainty. It is often assumed that extending calibration sequences to contain a variety of climate conditions is sufficient to guarantee model reliability within such conditions under future climate. In a short paper that I presented at the MODSIM2021 conference, we challenged these assumption. By using the same data and models used for the study described above, we compared the performance during and after the Millennium Drought of models that had been calibrated on different periods. We found no significant improvement in performance even when the period of the Drought was itself included in the calibration sequence.
 
 Details of the two papers described in this page are below.
 
-## Article accepted for publication in WRR
+## Article published in WRR
 
-**Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (2023). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' Accepted for publication in *Water Resources Research*. doi:10.1029/2021WR031845
+**Trotter, L**, Saft, M, Peel, MC, Fowler, KJA Under review (2023). 'Symptoms of performance degradation during multi-annual drought: a large-sample, multi-model study.' in <i>Water Resources Research</i>, 59(2), e2021WR031845. doi:10.1029/2021WR031845
 
 [Article](https://doi.org/10.1029/2021WR031845){: .btn--research}
 [Raw Data](https://doi.org/10.5281/zenodo.7505140){: .btn--research}

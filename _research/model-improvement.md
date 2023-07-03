@@ -1,0 +1,15 @@
+---
+title: "Model improvement"
+layout: single-portfolio
+excerpt: "<img src='/images/research/storage_conceptualisation.png' alt=''>"
+collection: research
+order_number: 30
+---
+
+Hydrological models are crucial for climate change impact studies, helping to evaluate the effects of a changing climate on water resources and associated risks. These models translate projected climate data into expected river flow, informing policy across sectors such as water supply, natural hazards, ecosystem management, and food production. However, the rainfall-runoff models widely used in this context have limitations in their ability to perform under transient climate conditions. With this part of my work, I aimed to address these limitations and improve the reliability of these models under changing climate conditions. 
+
+In particular, I developed an approach to improve the performance of hydrological models under varying climate conditions. I modified five conceptual rainfall-runoff models by allowing the size of their production store to vary based on recent climate observations. This is aimed at simulating changing connectivity between surface and stored water during long periods of drought as observed by my recession study. This approach is particularly advantageous as it does not require modifications to the models' constitutive equations and is therefore relatively easy to generalise across different models.
+
+As usual, we tested the modified models on 155 catchments in Victoria, many of which experienced significant changes in hydrological behaviour due to the Millennium drought. In  particular, we tested the models on their ability to perform during two periods of drastically different climate conditions (i.e. the Millennium drought and the wettest 10 years in the pre-drought record) using the same parameter set. This allowed us to evaluate the models' stucture and its flexibility to changes in climate and hydrology independently of the calibration method used. 
+
+The modified models showed significant improvements in performance, particularly in terms of streamflow bias. However, the realism of the simulations produced was not improved and in some cases, the modified models actually produces some highly unrealistic simulations, despite the good performance. Simulation realism was evaluated in terms of storage dynamics compared to patters observed in groundwater bores during the drought as well as water balance. The unrealistic simulation of the modified models relate in particular to evapotranspiration patterns, showe indicating a need for further refinement of the models in this area. Nevertheless, the simplicity and effectiveness of the modification, combined with its potential for generalization across different models, suggest a promising trajectory towards the development of more robust hydrological models that can better inform policy and decision-making in the face of climate change.
